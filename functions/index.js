@@ -140,7 +140,6 @@ app.intent('DF3', (conv) => {
 });
 
 app.intent('DF6', (conv) => {
-  //conv.contexts.delete('DD5','DD6','DC4-followup','DE5','DE6','DD5-followup','DF5','DF6','DE6-followup');
   conv.contexts.delete('DF1'), conv.contexts.delete('DF2'), conv.contexts.delete('DE2-followup'),
   conv.contexts.delete('DE1'), conv.contexts.delete('DE2'), conv.contexts.delete('DD1-followup'),
   conv.contexts.delete('DD1'), conv.contexts.delete('DD5'), conv.contexts.delete('DC1-followup');
